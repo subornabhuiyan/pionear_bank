@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- favicon -->
+    <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+    <!-- CSS links -->
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mediaquery.css">
+    <title>Jack</title>
+  </head>
+  <body>
+      <!-- wlcm-sec start -->
+      <section id="wlcm-sec">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-12">
+                      <div class="heading mb-5 text-center">
+                          <h1>Welcome to Pionear Bank</h1>
+                      </div>
+                      <div class="form">
+                          <form action="">
+                          <input type="text" class="form-control" placeholder="username" required>
+                          <input type="email" class="form-control my-4" placeholder="email" required>
+                          <button type="submit" class="btn btn-info btn-lg" id="login-btn">login</button>
+                      </form>
+                      </div>
+                      
+                  </div>
+              </div>
+          </div>
+      </section>
+      <!-- wlcm-sec end -->
+      <!-- bank-page start -->
+      <section id="bank-page">
+          <div class="container">
+              <!-- 1st row -->
+              <div class="row mb-5">
+                  <!-- single -->
+                  <div class="col-lg-4 col-md-4">
+                      <div class="single diposit">
+                            <h4 class=" text-capitalize mb-4">deposite</h4>
+                            <h2>$ <span id="currentDeposit">00</span></h2>
+                      </div>
+                  </div>
+                  <!-- single -->
+                  <div class="col-lg-4 col-md-4">
+                      <div class="single withdraw">
+                            <h4 class="text-capitalize mb-4">withdraw</h4>
+                            <h2>$ <span id="currentWithdraw">00</span></h2>
+                      </div>
+                  </div>
+                  <!-- single -->
+                  <div class="col-lg-4 col-md-4">
+                      <div class="single balance">
+                            <h4 class=" text-capitalize mb-4">balance</h4>
+                            <h2>$ <span id="balanceAmount">1200</span></h2>
+                      </div>
+                  </div>
+              </div>
+              <!-- 2nd row -->
+              <div class="row">
+                  <!-- depo-cal -->
+                  <div class="col-lg-6 col-md-6">
+                    <div class="depo-cal form">
+                        <h2 class="mb-4">Deposit</h2>
+                        <form action="">
+                            <input type="text" id="depositAmount" class="form-control mb-4" placeholder="$   amount you want to deposit">
+                          <button type="button" class="btn btn-info btn-lg" id="deposit-btn">deposite</button>
+                        </form>
+                    </div>
+                  </div>
+                  <!-- with-cal -->
+                  <div class="col-lg-6 col-md-6">
+                    <div class="with-cal form">
+                        <h2 class="mb-4">Withdraw</h2>
+                        <form action="">
+                            <input type="text" id="withdrawAmount" class="form-control mb-4" placeholder="$   amount you want to withdraw">
+                          <button type="button" class="btn btn-info btn-lg" id="withdraw-btn">withdraw</button>
+                        </form>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <!-- bank-page end -->
+      
+
+
+
+    <!-- Optional JavaScript -->
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

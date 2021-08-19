@@ -1,0 +1,68 @@
+/* -------------------------------common style------------------------*/
+@font-face{
+    font-family:Roboto-Medium ;
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+@font-face{
+    font-family:Roboto-Regular ;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face{
+    font-family: Poppins-Bold ;
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+*{  
+    font-family: Poppins-Bold ;
+    font-weight: 700;
+    color: #010101 !important;
+}
+p,span,input{
+    font-family: Roboto-Regular;
+    font-weight: 400;
+}
+img{
+    width: 100%;
+}
+/* -------------------------------wlcm-sec start--------------------------- */
+#wlcm-sec{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.form{
+    border-radius: 10px;
+    padding: 100px;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0,.3);
+}
+input{
+    padding: 10px 0 10px 30px !important ;
+    font-size: 20px;
+}
+/* -------------------------------wlcm-sec end--------------------------- */
+/* bank-page start */
+#bank-page {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    display: none;
+}
+#bank-page .single{
+    padding: 30px 10px;
+    border-radius: 20px;
+}
+#bank-page .single h2,h4,span{
+    color: white !important;
+
+}
+#bank-page .single h2{
+    font-size: 60px;
+    text-align: center;
+}
+.diposit{
+    background-color: slateblue;
+}
+.withdraw{
+    background-color: tomato;
+}
+.balance{
+    background-color: yellowgreen;
+}
+/* bank-page end */
